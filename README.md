@@ -180,17 +180,17 @@ Customer-Retention-Lifetime-Value-Optimizer
 
 ## Dashboard Preview
 
-### Dashboard Overview
+### Customer Segmentation Dashboard
 
-![Dashboard Overview](Dashboard_Img1.png)
+![Customer Segmentation Dashboard](Images/customer_segmentation_dashboard.png)
 
-### Customer Segmentation
+### Customer Analytics Dashboard
 
-![Customer Segmentation](Dashboard_Img2.png)
+![Customer Analytics Dashboard](Images/customer_analytics_dashboard.png)
 
-### Business Insights
+### Dashboard Interactivity & DAX Validation
 
-![Business Insights](Dashboard_Img3.png)
+![Dashboard Interactivity & DAX Validation](Images/dashboard_interactivity_dax_validation.png)
 
 ## Author
 
