@@ -4,7 +4,7 @@
 
 This project analyzes the Olist Brazilian E-Commerce dataset to understand customer purchasing behavior, identify high-value customers, measure customer retention, and predict customer churn.
 
-The project combines SQL, Python, Machine Learning, and Power BI to provide business insights and support data-driven decision-making.
+The project combines SQL, Python, Machine Learning, and Power BI to build an end-to-end customer analytics solution. It includes data cleaning, RFM analysis, cohort analysis, customer segmentation, churn prediction, and interactive dashboards that provide actionable business insights.
 
 ---
 
@@ -144,30 +144,63 @@ The dashboard includes:
 
 ## Project Structure
 
-```
-Customer-Retention-Lifetime-Value-Optimizer
+```text
+E-Commerce-Customer-Retention-Lifetime-Value-Optimizer
 │
-├── Dataset
-├── Images
-├── Models
-├── PowerBI
-├── Python
-├── SQL
+├── Dataset/          # Raw Olist datasets
+├── Outputs/          # Generated datasets and analytical outputs
+├── SQL/              # SQL scripts and analytical views
+├── Python/           # Jupyter notebook
+├── Models/           # Trained Random Forest model
+├── PowerBI/          # Interactive Power BI dashboard
+├── Images/           # Dashboard screenshots
 ├── README.md
 └── requirements.txt
 ```
+
+## Folder Description
+
+| Folder | Description |
+|---------|-------------|
+| Dataset | Raw Olist e-commerce datasets |
+| Outputs | Generated datasets and analytical outputs |
+| SQL | SQL scripts for data cleaning and analytics |
+| Python | Jupyter notebook for analysis and machine learning |
+| Models | Saved Random Forest model |
+| PowerBI | Interactive Power BI dashboard |
+| Images | Dashboard screenshots used in this README 
 
 ---
 
 ## Results
 
-- Built customer segments using RFM Analysis and K-Means Clustering.
-- Calculated Monthly Customer Retention using Cohort Analysis.
-- Identified high-value customers and product categories.
-- Predicted customer churn using Random Forest.
-- Developed an interactive Power BI dashboard for business insights.
+- Developed an end-to-end customer analytics pipeline.
+- Identified customer segments using RFM Analysis and K-Means Clustering.
+- Predicted customer churn using a Random Forest Classifier.
+- Built interactive Power BI dashboards for customer retention, revenue analysis, and business KPIs.
+- Generated actionable insights to support customer retention and marketing strategies.
 
 ---
+
+## How to Run
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/your-username/E-Commerce-Customer-Retention-Lifetime-Value-Optimizer.git
+```
+
+2. Install dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the Jupyter Notebook inside the `Python` folder.
+
+4. Execute the notebook cells sequentially.
+
+5. Open the Power BI dashboard (`.pbix`) to explore the visualizations.
 
 ## Future Improvements
 
